@@ -264,7 +264,7 @@ def _get_bin_edges(a, bins, range, weights):
     Computes the bins used internally by `histogram`.
 
     Parameters
-    ==========
+    ----------
     a : ndarray
         Ravelled data array
     bins, range
@@ -273,7 +273,7 @@ def _get_bin_edges(a, bins, range, weights):
         Ravelled weights array, or None
 
     Returns
-    =======
+    -------
     bin_edges : ndarray
         Array of bin edges
     uniform_bins : (Number, Number, int):
